@@ -1,0 +1,53 @@
+{
+	"data sources" : [
+		"http://www.gcmap.com/" ,
+		"http://www.theodora.com/country_digraphs.html" ,
+		"http://www.citypopulation.de/world/Agglomerations.html" ,
+		"http://www.mongabay.com/cities_urban_01.htm" ,
+		"http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+		"http://www.worldtimezone.com/standard.html"
+	] ,
+	"metros" : [
+		{
+			"code" : "LOL" ,
+			"name" : "Hello" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -6 ,
+			"coordinates" : {"N" : 40, "W" : 88} ,
+			"population" : 226000 ,
+			"region" : 1
+		}, {
+            "code" : "AYY" ,
+            "name" : "Wow" ,
+            "country" : "US" ,
+            "continent" : "North Awmereeca" ,
+            "timezone" : -420 ,
+            "coordinates" : {"N" : 69, "E" : 57} ,
+            "population" : 1738 ,
+            "region" : 2
+        }, {
+            "code" : "LMA" ,
+            "name" : "Hereinmygarage" ,
+            "country" : "US" ,
+            "continent" : "North Awmereeca" ,
+            "timezone" : -42 ,
+            "coordinates" : {"N" : 6, "E" : 52} ,
+            "population" : 4200 ,
+            "region" : 3
+        }
+	] ,
+	"routes" : [
+		{
+			"ports" : ["LOL" , "AYY"],
+			"distance" : 2736
+		} , {
+            "ports" : ["LMA", "LOL"],
+            "distance" : 420
+        } , {
+            "ports" : ["AYY", "LMA"],
+            "distance" : 6969
+        }
+
+	]
+}
